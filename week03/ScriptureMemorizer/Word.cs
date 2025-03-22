@@ -4,7 +4,7 @@ using System.Linq;
 
 public class Word
 {
-    public string _text { get; }
+    private string _text { get; }
     public bool IsHidden { get; private set; }
 
     public Word(string text)
