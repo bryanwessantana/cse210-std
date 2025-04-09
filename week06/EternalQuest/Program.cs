@@ -1,9 +1,9 @@
-using System;
-
-class Program
+public class Program
 {
-    static void Main(string[] args)
+    public static void Main(string[] args)
     {
-        Console.WriteLine("Hello World! This is the EternalQuest Project.");
+        // Only a code calling the method which starts the program
+        GoalManager manager = new GoalManager();
+        manager.Start();
     }
 }
